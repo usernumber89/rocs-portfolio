@@ -16,20 +16,20 @@ export default function Work() {
       category: 'Web Application'
     },
     {
-      imgSrc: '/images/dinatours.png',
-      title: 'Full Stack Travel Destination App',
-      description: 'Interactive travel platform with destination management and user authentication',
-      tags: ['API', 'NextJS', 'Prisma', 'Clerk', 'Development'],
-      projectLink: 'https://dinatours.vercel.app',
-      category: 'Web Application'
-    },
-    {
       imgSrc: '/images/dash.png',
       title: 'Interactive Dashboard in Power BI',
       description: 'Data visualization dashboard providing actionable insights through advanced analytics',
       tags: ['Data', 'Power BI', 'Analytics'],
       projectLink: 'https://drive.google.com/file/d/1RNhWNItp8I9ifV7WqNqWopFm4ZmY1pM1/view?usp=sharing',
       category: 'Data Analytics'
+    },
+    {
+      imgSrc: '/images/dinatours.png',
+      title: 'Full Stack Travel Destination App',
+      description: 'Interactive travel platform with destination management and user authentication',
+      tags: ['API', 'NextJS', 'Prisma', 'Clerk', 'Development'],
+      projectLink: 'https://dinatours.vercel.app',
+      category: 'Web Application'
     },
   ]
 

@@ -60,9 +60,8 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Skill />
+        <EventsGallery/>
         <Work />
-        <EventsGallery />
         <Certificates/>
         <Reviews />
         <Contact />
