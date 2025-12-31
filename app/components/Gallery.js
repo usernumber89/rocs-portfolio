@@ -44,7 +44,7 @@ export default function EventsGallery() {
     },
     {
       id: 5,
-      title: 'Podcast “Always ¡Supérate!”: Episodio 3: "Expo Tech: Behind the Scenes"',
+      title: 'Podcast “Always ¡Supérate!” Episodio 3: "Expo Tech: Behind the Scenes"',
       role: 'Guest Speaker',
       date: 'November 2025',
       location: 'Programa Empresarial ¡Supérate!',
