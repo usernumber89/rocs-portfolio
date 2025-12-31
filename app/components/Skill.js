@@ -10,7 +10,6 @@ export default function Skill() {
     { imgSrc: '/images/prisma.svg', label: 'Prisma', desc: 'Database' },
     { imgSrc: '/images/figma.svg', label: 'Figma', desc: 'Design tool' },
     { imgSrc: '/images/css3.svg', label: 'CSS', desc: 'User Interface' },
-    { imgSrc: '/images/tailwindcss.svg', label: 'TailwindCSS', desc: 'User Interface' },
   ]
 
   return (
