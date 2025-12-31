@@ -51,6 +51,17 @@ export default function Certificates() {
     },
     {
       id: 5,
+      title: 'Negotiation',
+      issuer: 'Santander Open Academy',
+      date: 'November 2025',
+      credentialId: 'OA-2025-1122001995878',
+      link: '/negociacion.pdf',
+      skills: ['Teamwork', 'Agile Methodologies', 'Scrum', 'Time Management', 'Project Management'],
+      isPDF: true,
+      thumbnail: '/images/negociacion.jpg'
+    },
+    {
+      id: 6,
       title: 'Leadership',
       issuer: 'Santander Open Academy',
       date: 'April 2025',
@@ -61,7 +72,40 @@ export default function Certificates() {
       thumbnail: '/images/cert-preview-4.jpg'
     },
     {
-      id: 6,
+      id: 7,
+      title: 'Agile Delivery Management: Results-Focused Projects',
+      issuer: 'Platzi',
+      date: 'December 2025',
+      credentialId: '9f5acec3-4ac2-4e20-ab22-807792dba12a',
+      link: '/agile.pdf',
+      skills: ['Agile Methodologies', 'Scrum', 'Project Management'],
+      isPDF: true,
+      thumbnail: '/images/diploma-agile-delivery (1)_page-0001 (1).jpg'
+    },
+    {
+      id: 8,
+      title: 'Business models',
+      issuer: 'Platzi',
+      date: 'December 2025',
+      credentialId: '5dd93b87-4fcb-4129-9b89-d4711e20b4bc',
+      link: '/modelos.pdf',
+      skills: ['Business Strategy', 'Business Models'],
+      isPDF: true,
+      thumbnail: '/images/modelos.jpg'
+    },
+    {
+      id: 9,
+      title: 'Data science for business analytics',
+      issuer: 'Platzi',
+      date: 'December 2025',
+      credentialId: 'd43d6885-c86f-4aa6-8c2b-e33858d401f5',
+      link: '/ciencia.pdf',
+      skills: ['Data Analysis', 'Business Analytics'],
+      isPDF: true,
+      thumbnail: '/images/ciencia.jpg'
+    },
+    {
+      id: 10,
       title: 'Excel Associate Microsoft 365 Apps',
       issuer: 'Certiport - A Pearson VUE Business',
       date: 'November 2024',
@@ -71,7 +115,7 @@ export default function Certificates() {
       isPDF: false
     },
     {
-      id: 7,
+      id: 11,
       title: 'Introduction to Impact Evaluation for Public Management',
       issuer: 'ODILO',
       date: '2024',
@@ -82,7 +126,7 @@ export default function Certificates() {
       thumbnail: '/images/cert-preview-5.jpg'
     },
     {
-      id: 8,
+      id: 12,
       title: 'Git and Github',
       issuer: 'Udemy - KODIGO',
       date: '2024',

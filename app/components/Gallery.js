@@ -41,6 +41,15 @@ export default function EventsGallery() {
       location: '¡Supérate! Hilasal Center, San Andrés',
       image: '/images/rodri.jpg',
       description: 'Hosting the annual Expo event'
+    },
+    {
+      id: 5,
+      title: 'Podcast “Always ¡Supérate!”: Episodio 3: "Expo Tech: Behind the Scenes"',
+      role: 'Guest Speaker',
+      date: 'November 2025',
+      location: 'Programa Empresarial ¡Supérate!',
+      image: '/images/podcast.jpg',
+      description: 'Discussing the Expo Tech event and experiences'
     }
   ]
 
