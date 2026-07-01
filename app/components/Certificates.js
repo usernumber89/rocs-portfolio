@@ -8,131 +8,131 @@ export default function Certificates() {
   const certificates = [
     {
       id: 1,
-      title: 'Digital Skills for Professionals',
+      title: 'Habilidades Digitales para Profesionales',
       issuer: 'Google Digital Academy (Skillshop)',
       date: 'May 2025',
       credentialId: '389569176',
       link: 'https://skillshop.exceedlms.com/student/award/Yg6shBrAUUTn3x5srfnXMdzS',
-      skills: ['Problem Solving'],
+      skills: ['Resolución de Problemas'],
       isPDF: false
     },
     {
       id: 2,
-      title: 'First Place at Expo Tech 2025 - Digital Talent Project',
+      title: 'Primer Lugar en Expo Tech 2025 - Proyecto de Talento Digital',
       issuer: 'Programa Empresarial ¡Supérate!',
       date: 'July 2025',
       credentialId: '2025',
       link: '/reconocimiento.pdf',
-      skills: ['Teamwork','Leadership', 'Problem Solving','Creativity', 'Innovation', 'Communication'],
+      skills: ['Trabajo en Equipo','Liderazgo', 'Resolución de Problemas','Creatividad', 'Innovación', 'Comunicación'],
       isPDF: true,
       thumbnail: '/images/cert-preview-1.jpg' // placeholder
     },
     {
       id: 3,
-      title: 'Effective Communication',
+      title: 'Comunicación Efectiva',
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0415001014377',
       link: '/comunicacion.pdf',
-      skills: ['Teamwork', 'Effective Communication'],
+      skills: ['Trabajo en Equipo', 'Comunicación Efectiva'],
       isPDF: true,
       thumbnail: '/images/cert-preview-2.jpg'
     },
     {
       id: 4,
-      title: 'Project Management and Agile Methodology Fundamentals',
+      title: 'Fundamentos de Gestión de Proyectos y Metodología Ágil',
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0412001008421',
       link: '/proyectos.pdf',
-      skills: ['Teamwork', 'Agile Methodologies', 'Scrum', 'Time Management', 'Project Management'],
+      skills: ['Trabajo en Equipo', 'Metodologías Ágiles', 'Scrum', 'Gestión del Tiempo', 'Gestión de Proyectos'],
       isPDF: true,
       thumbnail: '/images/cert-preview-3.jpg'
     },
     {
       id: 5,
-      title: 'Negotiation',
+      title: 'Negociación',
       issuer: 'Santander Open Academy',
       date: 'November 2025',
       credentialId: 'OA-2025-1122001995878',
       link: '/negociacion.pdf',
-      skills: ['Teamwork', 'Agile Methodologies', 'Scrum', 'Time Management', 'Project Management'],
+      skills: ['Trabajo en Equipo', 'Metodologías Ágiles', 'Scrum', 'Gestión del Tiempo', 'Gestión de Proyectos'],
       isPDF: true,
       thumbnail: '/images/negociacion.jpg'
     },
     {
       id: 6,
-      title: 'Leadership',
+      title: 'Liderazgo',
       issuer: 'Santander Open Academy',
       date: 'April 2025',
       credentialId: 'OA-2025-0415001016672',
       link: '/liderazgo.pdf',
-      skills: ['Teamwork', 'Leadership Development', 'Leadership'],
+      skills: ['Trabajo en Equipo', 'Desarrollo de Liderazgo', 'Liderazgo'],
       isPDF: true,
       thumbnail: '/images/cert-preview-4.jpg'
     },
     {
       id: 7,
-      title: 'Agile Delivery Management: Results-Focused Projects',
+      title: 'Gestión de Entrega Ágil: Proyectos Enfocados en Resultados',
       issuer: 'Platzi',
       date: 'December 2025',
       credentialId: '9f5acec3-4ac2-4e20-ab22-807792dba12a',
       link: '/agile.pdf',
-      skills: ['Agile Methodologies', 'Scrum', 'Project Management'],
+      skills: ['Metodologías Ágiles', 'Scrum', 'Gestión de Proyectos'],
       isPDF: true,
       thumbnail: '/images/diploma-agile-delivery (1)_page-0001 (1).jpg'
     },
     {
       id: 8,
-      title: 'Business models',
+      title: 'Modelos de Negocio',
       issuer: 'Platzi',
       date: 'December 2025',
       credentialId: '5dd93b87-4fcb-4129-9b89-d4711e20b4bc',
       link: '/modelos.pdf',
-      skills: ['Business Strategy', 'Business Models'],
+      skills: ['Estrategia de Negocios', 'Modelos de Negocio'],
       isPDF: true,
       thumbnail: '/images/modelos.jpg'
     },
     {
       id: 9,
-      title: 'Data science for business analytics',
+      title: 'Ciencia de Datos para Analítica de Negocios',
       issuer: 'Platzi',
       date: 'December 2025',
       credentialId: 'd43d6885-c86f-4aa6-8c2b-e33858d401f5',
       link: '/ciencia.pdf',
-      skills: ['Data Analysis', 'Business Analytics'],
+      skills: ['Análisis de Datos', 'Analítica de Negocios'],
       isPDF: true,
       thumbnail: '/images/ciencia.jpg'
     },
     {
       id: 10,
-      title: 'Excel Associate Microsoft 365 Apps',
+      title: 'Asociado de Excel Microsoft 365 Apps',
       issuer: 'Certiport - A Pearson VUE Business',
       date: 'November 2024',
       credentialId: 'uLuK-XaqA',
       link: 'https://www.certiport.com/portal/pages/credentialverification.aspx',
-      skills: ['Microsoft Office', 'Data Analysis'],
+      skills: ['Microsoft Office', 'Análisis de Datos'],
       isPDF: false
     },
     {
       id: 11,
-      title: 'Introduction to Impact Evaluation for Public Management',
+      title: 'Introducción a la Evaluación de Impacto para la Gestión Pública',
       issuer: 'ODILO',
       date: '2024',
       credentialId: '11ee8a72a46b31b3abfb5dc50a692',
       link: '/gestion_p.pdf',
-      skills: ['Public Management'],
+      skills: ['Gestión Pública'],
       isPDF: true,
       thumbnail: '/images/cert-preview-5.jpg'
     },
     {
       id: 12,
-      title: 'Git and Github',
+      title: 'Git y GitHub',
       issuer: 'Udemy - KODIGO',
       date: '2024',
       credentialId: 'UC-1c64dcbf-22eb-4b18-8afa-47b3a53d9eb5',
       link: 'https://www.udemy.com/certificate/UC-1c64dcbf-22eb-4b18-8afa-47b3a53d9eb5/',
-      skills: ['Git', 'GitHub', 'Version Control'],
+      skills: ['Git', 'GitHub', 'Control de Versiones'],
       isPDF: false
     }
   ]
@@ -153,14 +153,14 @@ export default function Certificates() {
           <div className='mb-8 md:mb-12'>
             <div className='flex items-center gap-3 mb-3'>
               <div className='h-px flex-1 bg-gradient-to-r from-transparent to-zinc-700'></div>
-              <span className='text-xs uppercase tracking-widest text-zinc-500 font-medium'>Certifications</span>
+              <span className='text-xs uppercase tracking-widest text-zinc-500 font-medium'>Certificaciones</span>
               <div className='h-px flex-1 bg-gradient-to-l from-transparent to-zinc-700'></div>
             </div>
             <h2 className='text-2xl md:text-3xl lg:text-4xl font-semibold text-center mb-3'>
-              Professional Credentials
+              Credenciales Profesionales
             </h2>
             <p className='text-zinc-400 text-sm md:text-base text-center max-w-2xl mx-auto'>
-              Continuous learning through industry-recognized certifications and specialized training
+              Aprendizaje continuo a través de certificaciones reconocidas y formación especializada
             </p>
           </div>
 
@@ -197,7 +197,7 @@ export default function Certificates() {
                     {/* Badge */}
                     <div className='absolute top-3 left-3'>
                       <span className='px-2.5 py-1 text-xs font-medium bg-black/60 backdrop-blur-md text-sky-400 rounded-full border border-sky-400/30'>
-                        {cert.isPDF ? 'Certificate' : 'External'}
+                        {cert.isPDF ? 'Certificado' : 'Externo'}
                       </span>
                     </div>
 

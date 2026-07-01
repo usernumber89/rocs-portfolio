@@ -7,24 +7,24 @@ export default function Reviews() {
   const reviews = [
     {
       name: 'Mercedes Segura',
-      position: '¡Supérate! Hilasal\'s Principal',
+      position: 'Directora de ¡Supérate! Hilasal',
       image: '/images/mercy.jpeg',
       rating: 5,
-      text: 'I would describe Rodrigo Campos as a resilient person with a desire to excel. He is decisive and sets goals with determination. I have observed that he is willing to transform his environment in a positive way. He is analytical, thinks critically, and communicates assertively. I believe he is focused on helping the community to become a society with a transformative vision for new generations. He is focused and a very well-rounded person, both academically and personally.'
+      text: 'Describiría a Rodrigo Campos como una persona resiliente con deseos de superación. Es decidido y establece metas con determinación. He observado que está dispuesto a transformar su entorno de manera positiva. Es analítico, piensa críticamente y se comunica de forma asertiva. Creo que está enfocado en ayudar a la comunidad para convertirse en una sociedad con visión transformadora para las nuevas generaciones. Es una persona enfocada y muy completa, tanto académica como personalmente.'
     },
     {
       name: 'Irvin Pineda',
-      position: 'Computer science teacher at ¡Supérate! Hilasal Center',
+      position: 'Profesor de informática en ¡Supérate! Hilasal Center',
       image: '/images/irvin.jpg',
       rating: 5,
-      text: 'Rodrigo is a highly responsible young man with outstanding programming skills and a willingness to take on new challenges. He is characterized by his commitment to continuous improvement and his ability to find efficient solutions to complex problems. In addition to being an excellent programmer, he demonstrates strong leadership, fostering teamwork and guiding his colleagues toward achieving common goals. I am confident that Rodrigo will continue to excel in his professional career, making significant contributions to any organization he joins.',
+      text: 'Rodrigo es un joven altamente responsable con habilidades de programación sobresalientes y disposición para asumir nuevos desafíos. Se caracteriza por su compromiso con la mejora continua y su capacidad para encontrar soluciones eficientes a problemas complejos. Además de ser un excelente programador, demuestra un fuerte liderazgo, fomentando el trabajo en equipo y guiando a sus colegas hacia el logro de objetivos comunes. Estoy seguro de que Rodrigo seguirá destacando en su carrera profesional, haciendo contribuciones significativas a cualquier organización a la que se una.',
     },
     {
       name: 'Eduardo Paices',
-      position: 'English Teacher at ¡Supérate! Hilasal Center',
+      position: 'Profesor de Inglés en ¡Supérate! Hilasal Center',
       image: '/images/paices.jpg',
       rating: 5,
-      text: 'Rodrigo Antonio Campos Alvarenga is one of those rare students who leaves a lasting impression. As his ESL teacher, I watched him combine his outstanding English skills with a sharp, innovative mind. His teamwork, leadership and vision were perfectly demonstrated when he and his team won the Supérate ExpoTech contest with a tech application celebrated for its creativity and social benefit. Thoughtful, articulate, and driven to make a difference, he is exactly the kind of talent and character any organization would be lucky to have.',
+      text: 'Rodrigo Antonio Campos Alvarenga es uno de esos estudiantes raros que dejan una impresión duradera. Como su maestro de ESL, lo vi combinar sus excelentes habilidades en inglés con una mente aguda e innovadora. Su trabajo en equipo, liderazgo y visión se demostraron perfectamente cuando él y su equipo ganaron el concurso Supérate ExpoTech con una aplicación tecnológica celebrada por su creatividad y beneficio social. Reflexivo, elocuente y motivado para marcar la diferencia, es exactamente el tipo de talento y carácter que cualquier organización tendría la suerte de tener.',
     },
     
   ];
@@ -44,10 +44,10 @@ export default function Reviews() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-semibold mb-4">
-            Reviews
+            Testimonios
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            What people say about me
+            Lo que dicen de mí
           </p>
         </div>
 
@@ -96,7 +96,7 @@ export default function Reviews() {
             <button
               onClick={prevReview}
               className="p-3 bg-zinc-800/50 hover:bg-zinc-800 rounded-xl text-zinc-300 hover:text-white transition-all duration-300 hover:scale-110"
-              aria-label="Previous review"
+              aria-label="Testimonio anterior"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -114,7 +114,7 @@ export default function Reviews() {
                       ? 'w-8 h-2 bg-[#2196F3]'
                       : 'w-2 h-2 bg-zinc-600 hover:bg-zinc-500'
                   }`}
-                  aria-label={`Go to review ${index + 1}`}
+                  aria-label={`Ir al testimonio ${index + 1}`}
                 />
               ))}
             </div>
@@ -122,7 +122,7 @@ export default function Reviews() {
             <button
               onClick={nextReview}
               className="p-3 bg-zinc-800/50 hover:bg-zinc-800 rounded-xl text-zinc-300 hover:text-white transition-all duration-300 hover:scale-110"
-              aria-label="Next review"
+              aria-label="Siguiente testimonio"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

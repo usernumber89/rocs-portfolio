@@ -63,10 +63,10 @@ export default function Contact() {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-semibold mb-4">
-            Get in Touch
+            Ponte en Contacto
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out through any of the platforms below.
+            Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tus visiones. No dudes en contactarme a través de cualquiera de las siguientes plataformas.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ export default function Contact() {
           
           <div className="group">
             <label htmlFor="name" className="block text-sm font-medium text-zinc-300 mb-2">
-              Name
+              Nombre
             </label>
             <input
               type="text"
@@ -102,14 +102,14 @@ export default function Contact() {
               onChange={handleChange}
               required
               className="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-[#2196F3] focus:ring-2 focus:ring-[#2196F3]/20 transition-all duration-300"
-              placeholder="Your name"
+              placeholder="Tu nombre"
             />
           </div>
 
           {/* Email Input */}
           <div className="group">
             <label htmlFor="email" className="block text-sm font-medium text-zinc-300 mb-2">
-              Email
+              Correo electrónico
             </label>
             <input
               type="email"
@@ -119,14 +119,14 @@ export default function Contact() {
               onChange={handleChange}
               required
               className="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-[#2196F3] focus:ring-2 focus:ring-[#2196F3]/20 transition-all duration-300"
-              placeholder="your.email@example.com"
+              placeholder="tu.correo@ejemplo.com"
             />
           </div>
 
           {/* Message Textarea */}
           <div className="group">
             <label htmlFor="message" className="block text-sm font-medium text-zinc-300 mb-2">
-              Message
+              Mensaje
             </label>
             <textarea
               id="message"
@@ -136,7 +136,7 @@ export default function Contact() {
               required
               rows="6"
               className="w-full px-4 py-3 bg-zinc-800/50 border border-zinc-700 rounded-xl text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-[#2196F3] focus:ring-2 focus:ring-[#2196F3]/20 transition-all duration-300 resize-none"
-              placeholder="Tell me about your project..."
+              placeholder="Cuéntame sobre tu proyecto..."
             />
           </div>
 
@@ -145,7 +145,7 @@ export default function Contact() {
             type="submit"
             className="w-full px-6 py-3.5 bg-gradient-to-r from-[#2196F3] to-[#64B5F6] text-white font-medium rounded-xl hover:shadow-lg hover:shadow-[#2196F3]/30 active:scale-[0.98] transition-all duration-300"
           >
-            Send Message
+            Enviar Mensaje
           </button>
         </form>
 

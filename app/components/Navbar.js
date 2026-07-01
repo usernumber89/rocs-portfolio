@@ -19,13 +19,13 @@ export default function Navbar() {
   }, []);
 
   const navItems = [
-    { label: "Home", link: "#home" },
-    { label: "About", link: "#about" },
-    {label: "Gallery", link: "#events" },
-    { label: "Work", link: "#work" },
-    {label: "Certificates", link: "#certificates"},
-    { label: "Reviews", link: "#reviews" },
-    { label: "Contact", link: "#contact" },
+    { label: "Inicio", link: "#home" },
+    { label: "Sobre mí", link: "#about" },
+    {label: "Galería", link: "#events" },
+    { label: "Proyectos", link: "#work" },
+    {label: "Certificados", link: "#certificates"},
+    { label: "Testimonios", link: "#reviews" },
+    { label: "Contacto", link: "#contact" },
   ];
 
   return (
@@ -74,7 +74,7 @@ export default function Navbar() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden relative p-3 rounded-xl text-zinc-100 hover:bg-zinc-100 active:scale-95 transition-all duration-200"
-            aria-label="Toggle menu"
+            aria-label="Abrir menú"
           >
             <div className="relative w-6 h-6">
               <CiMenuBurger

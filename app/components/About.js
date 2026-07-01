@@ -6,8 +6,8 @@ export default function About() {
   const sectionRef = useRef(null);
 
   const aboutItems = [
-    { label: 'Certifications earned', number: 9, suffix: '+' },
-    { label: 'Tools mastered', number: 8, suffix: '' },
+    { label: 'Certificaciones obtenidas', number: 10, suffix: '+' },
+    
   ];
 
   useEffect(() => {
@@ -40,16 +40,16 @@ export default function About() {
       <div className="bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 p-8 md:p-12 rounded-3xl shadow-lg border border-zinc-700/40">
         
         <p className="text-zinc-200 text-base md:text-lg lg:text-xl leading-relaxed mb-10 max-w-3xl">
-          Hi! I'm Rodrigo and I'm a student of{' '}
+          ¡Hola! Soy Rodrigo y soy estudiante de{' '}
           <span className="font-semibold text-sky-400">
-            Technological Management and Data Analytics
+            Gestión Tecnológica y Análisis de Datos
           </span>{' '}
-          | Aspiring Data Analyst passionate about transforming data into{' '}
+          | Aspirante a Analista de Datos apasionado por transformar datos en{' '}
           <span className="text-sky-400 font-medium">
-            valuable insights
+            insights valiosos
           </span>{' '}
-          that drive strategic decisions, optimize processes, and create a real impact
-          within organizations.
+          que impulsen decisiones estratégicas, optimicen procesos y creen un impacto real
+          dentro de las organizaciones.
         </p>
 
         

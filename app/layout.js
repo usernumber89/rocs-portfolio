@@ -19,12 +19,12 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Rocs",
-  description: "Portfolio",
+  description: "Portafolio",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body
         className={`${jakarta.className} antialiased`}
       suppressHydrationWarning

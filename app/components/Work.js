@@ -8,28 +8,28 @@ export default function Work() {
 
   const works = [
     {
-      imgSrc: '/images/dexpert.png',
-      title: 'Dexpert – Build Experience',
-      description: 'Full-stack platform connecting experts with clients through seamless booking and payment integration',
-      tags: ['Full-Stack', 'NextJS', 'Stripe', 'API', 'Clerk', 'Prisma'],
-      projectLink: 'https://dexpert-lake.vercel.app/',
-      category: 'Web Application'
+      imgSrc: '/images/collage1.png',
+      title: 'Dexpert – Construye Experiencia',
+      description: 'Plataforma full-stack que conecta Jóvenes sin experiencia laboral con PYMEs que necesitan talento, facilitando la adquisición de experiencia laboral y el desarrollo profesional',
+      tags: ['Full-Stack', 'NextJS', 'Wompi', 'API', 'Supabase',],
+      projectLink: 'https://dexpert.app/',
+      category: 'Aplicación Web'
     },
     {
       imgSrc: '/images/dash.png',
-      title: 'Interactive Dashboard in Power BI',
-      description: 'Data visualization dashboard providing actionable insights through advanced analytics',
-      tags: ['Data', 'Power BI', 'Analytics'],
+      title: 'Dashboard Interactivo en Power BI',
+      description: 'Dashboard de visualización de datos que proporciona información procesable mediante analítica avanzada',
+      tags: ['Datos', 'Power BI', 'Analítica'],
       projectLink: 'https://drive.google.com/file/d/1RNhWNItp8I9ifV7WqNqWopFm4ZmY1pM1/view?usp=sharing',
-      category: 'Data Analytics'
+      category: 'Analítica de Datos'
     },
     {
       imgSrc: '/images/dinatours.png',
-      title: 'Full Stack Travel Destination App',
-      description: 'Interactive travel platform with destination management and user authentication',
-      tags: ['API', 'NextJS', 'Prisma', 'Clerk', 'Development'],
+      title: 'App de Viajes Full Stack',
+      description: 'Plataforma interactiva de viajes con gestión de destinos y autenticación de usuarios',
+      tags: ['API', 'NextJS', 'Prisma', 'Clerk', 'Desarrollo'],
       projectLink: 'https://dinatours.vercel.app',
-      category: 'Web Application'
+      category: 'Aplicación Web'
     },
   ]
 
@@ -41,14 +41,14 @@ export default function Work() {
         <div className="mb-16 md:mb-20">
           <div className="flex items-center gap-3 mb-3">
             <div className="h-px flex-1 bg-gradient-to-r from-transparent to-zinc-700"></div>
-            <span className="text-xs uppercase tracking-widest text-zinc-500 font-medium">Portfolio</span>
+            <span className="text-xs uppercase tracking-widest text-zinc-500 font-medium">Portafolio</span>
             <div className="h-px flex-1 bg-gradient-to-l from-transparent to-zinc-700"></div>
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-center mb-4">
-            Featured Projects
+            Proyectos Destacados
           </h2>
           <p className="text-zinc-400 text-sm md:text-base text-center max-w-2xl mx-auto">
-            A selection of recent work showcasing full-stack development and data analytics expertise
+            Una selección de trabajos recientes que muestran desarrollo full-stack y experiencia en analítica de datos
           </p>
         </div>
 
@@ -128,7 +128,7 @@ export default function Work() {
         {/* GitHub CTA */}
         <div className="text-center">
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-zinc-800/40 border border-zinc-700/50 hover:border-sky-400/50 transition-all duration-300">
-            <span className="text-zinc-400">Explore more projects on</span>
+            <span className="text-zinc-400">Explora más proyectos en</span>
             <a 
               href="https://github.com/usernumber89" 
               target="_blank" 

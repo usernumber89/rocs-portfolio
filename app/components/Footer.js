@@ -58,17 +58,17 @@ export default function Footer() {
 
   return (
     <footer className="backdrop-blur-xl text-white bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 rounded-lg shadow-lg border border-zinc-700/40 mt-8" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">Footer Navigation and Information</h2>
+      <h2 id="footer-heading" className="sr-only">Navegación e información del pie de página</h2>
       <div className="max-w-6xl mx-auto px-4 md:px-8 py-8">
         
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           
           {/* Logo & Copyright */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <Link href="/" className="inline-block" aria-label="Go to homepage">
+            <Link href="/" className="inline-block" aria-label="Ir al inicio">
               <Image
                 src="/images/rocs.png"
-                alt="Rodrigo Logo" // Changed alt text for better context
+                alt="Logo de Rodrigo"
                 width={80}
                 height={80}
                 className="hover:scale-105 transition-transform duration-300"
@@ -86,9 +86,9 @@ export default function Footer() {
             <a
               href="#home" // Ensure you have an element with id="home" at the top of your page
               className="group flex items-center gap-2 px-5 py-2.5 bg-zinc-800/80 hover:bg-zinc-700 rounded-full text-zinc-300 hover:text-white transition-all duration-300 shadow-xl"
-              aria-label="Back to Top of the page"
+              aria-label="Volver al inicio de la página"
             >
-              <span className="text-sm font-medium">Back to Top</span>
+              <span className="text-sm font-medium">Volver arriba</span>
               <svg 
                 className="w-4 h-4 transform group-hover:-translate-y-0.5 transition-transform duration-300" 
                 fill="none" 
@@ -109,7 +109,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`Visit ${label} profile`} // More descriptive aria-label
+                aria-label={`Visitar perfil de ${label}`}
                 className="p-2.5  bg-zinc-800/80 hover:bg-zinc-700  text-zinc-300 hover:text-white transition-all duration-300 shadow-xl rounded-lg  hover:scale-110 "
               >
                 {icon}
